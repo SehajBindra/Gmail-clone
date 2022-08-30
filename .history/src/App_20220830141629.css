@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  overflow: hidden;
+}
+
+.app {
+  height: 100vh;
+}
+.app__body{
+   height: 100vh;
+   display: flex;
+}

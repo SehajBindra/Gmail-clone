@@ -1,0 +1,40 @@
+.emailList{
+    flex: 1;
+    overflow: scroll;
+}
+
+@media (max-width:640px) {
+    .emailList::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+
+.emailList_settings{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    padding-right: 10px;
+}
+
+.emailList_sections{
+    position: static;
+    top: 0;
+    border: none;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.section--selected{
+    background-color: whitesmoke;
+    border-width: 3px !important;
+}
+
+.emailList_list{
+    padding-bottom: 10%;
+}

@@ -1,0 +1,24 @@
+.login{
+  display: grid;
+  place-items: center;
+ 
+ 
+}
+
+.login_conatiner{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.login_conatiner > img{
+    object-fit: contain;
+    height: 200px;
+    background-color: #f2f2f2;
+   
+}
+
+.login_btn{
+    text-transform: capitalize !important;
+}
+    

@@ -1,0 +1,26 @@
+.login{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+ 
+}
+
+.login_conatiner{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.login_conatiner > img{
+    object-fit: contain;
+    height: 200px;
+    background-color: #f2f2f2;
+   
+}
+
+/* .login_btn{
+    position: absolute;
+    left: -476px;
+    top: 32px;
+} */
+    
